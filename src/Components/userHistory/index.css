@@ -1,0 +1,45 @@
+.list-item {
+  list-style: none;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+}
+
+.list-item .item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.list-item .time-accessed {
+  margin-right: 25px; /* Adjust margin as needed */
+}
+
+.list-item h1 {
+  font-size: 20px;
+}
+
+.list-item .title-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.list-item .title-container img,
+.list-item button img {
+  height: 20px;
+  width: 20px;
+}
+.delete-container {
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.delete-container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
